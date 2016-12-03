@@ -17,7 +17,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 //@ComponentScan
 //@Configuration
-@SpringBootApplication
+@SpringBootApplication  
 public class DemoApplication implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(DemoApplication.class);
